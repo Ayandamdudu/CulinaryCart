@@ -1,16 +1,77 @@
+/* Body styles */
+ 
 body {
-
+ 
+    font-family: Arial, sans-serif;
+ 
+    background-color: #f7f7f7;
+ 
+    color: #333;
+ 
 }
-
+ 
+/* Header styles */
+ 
+header  {
+ 
+    background-color: #B1D8B7; /* Medium Green */
+ 
+    color: #fff;
+ 
+    padding: 20px;
+ 
+    text-align: center;
+ 
+}
+ 
+header h1 {
+    background-color: #B1D8B7; /* Medium Green */
+ 
+    color: #fff;
+ 
+    padding: 20px;
+ 
+    text-align: center;
+ 
+}
+ 
+.logo img {
+ 
+    width: 50px; /* Adjust the size of your logo */
+}
+ 
+.nav {
+ 
+    margin-top: 20px;
+ 
+}
+ 
+.nav li {
+ 
+    display: inline-block;
+ 
+    margin-right: 20px;
+ 
+}
+ 
+.nav a {
+ 
+    text-decoration: none;
+ 
+    color: #189AB4;
+ 
+    font-size: 16px;
+ 
+}
 .menu {
     padding: 0 10px 30px 10px;
     display: grid;
     grid-template-columns: repeat( auto-fit,
     minmax(350px, 1fr));
     grid-gap: 20px 40px;
-
+ 
 }
-
+ 
 .heading {
     /* background-color: beige; */
     margin-bottom: 30px;
@@ -18,51 +79,59 @@ body {
     grid-column: 1/-1;
     text-align: center;
 }
-
+ 
+.content-paragraph {
+   
+}
+ 
 .food-items {
-
-    background-color: bisque;
+    background-color: #c5e1a5;
     display: grid;
     position: relative;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: auto;
     border-radius: 15px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Add space between slideshow and food items */
+    padding: 20px;
 }
-
+ 
+.food-item {
+    margin-bottom: 20px;
+}
 .food-items img {
     position: relative;
     width: 100%;
     height: 100%;
     border-radius: 15px 15px 0 0;
 }
-
+ 
 h1 {
     grid-column: 1/-1;
     text-align: center;
     height: fit-content;
     background-color: azure;
 }
-
+ 
 .details {
     padding: 20px 10px;
     display: grid;
     grid-template-rows: auto 1fr 40px;
     grid-row-gap: 0;
 }
-
+ 
 .details-sub {
     /* background-color: blueviolet; */
     display: grid;
     grid-template-columns: auto auto;
     font-size: 30px;
 }
-
+ 
 .details-sub>h5 {
     font-weight: 900;
     /* background-color: blanchedalmond; */
-    
+   
 }
-
+ 
 .spear {
     text-align: right;
 }
@@ -74,12 +143,66 @@ h1 {
     align-self: stretch;
     /* color: #f6f6f6; */
 }
-
+ 
 .details>button {
-    background-color: aquamarine;
+    background-color:    #f4d35e;
     border: none;
     font-size: 16px;
     font-weight: 600;
     border-radius: 5px;
     width: 180px;
 }
+ 
+footer {
+ 
+    background-color: #5cb85c; /* Medium Green */
+ 
+    color: #fff;
+ 
+    text-align: center;
+ 
+    padding: 20px 0;
+ 
+    display: flex;
+ 
+    justify-content: space-between;
+ 
+    align-items: center;
+ 
+}
+ 
+.social-icons {
+ 
+    display: flex;
+ 
+}
+ 
+.social-icon {
+ 
+    color: #fff;
+ 
+    font-size: 20px;
+ 
+    margin-left: 10px;
+ 
+}
+ 
+.social-icon:hover {
+ 
+    color: #f4d35e; /* Yellow */
+ 
+}
+ 
+.slideshow-container {
+    overflow-x: auto;
+    margin-top: 50%;
+}
+ 
+.slideshow {
+    display: flex;
+}
+ 
+.slide-wrapper {
+ 
+}
+ 

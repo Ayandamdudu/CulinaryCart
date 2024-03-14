@@ -98,3 +98,4 @@ function product5_details(selectedProduct) {
       <li>ingrediant 4</li>
   </ul>
 `;
+}
