@@ -51,7 +51,7 @@ header {
     font-size: 40px;
     text-align: center;
     padding-bottom: 20px;
-    margin-right: -900px;
+    margin-right: -800px;
 }
 
 .bg-breadcrumb p {
@@ -59,13 +59,13 @@ header {
     text-align: center;
     font-weight: bolder;
     color: #fff;
-    margin-right: -900px;
+    margin-right: -700px;
 }
 
 /* Contact Start */
 .form {
     box-sizing: border-box;
-    border-radius: 20px;
+    border-radius: 50px;
     color: #fff;
 
 }
@@ -86,7 +86,7 @@ header {
     /* Adjust the max-width as needed */
     padding: 50px;
     background: #fff;
-
+    border-radius: 20px;
 }
 
 .page_ input,
