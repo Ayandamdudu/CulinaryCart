@@ -1,0 +1,222 @@
+/* Resetting default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+}
+
+header {
+    background-color: #B1D8B7;
+    /* Medium Green */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo img {
+    width: 50px;
+    /* Adjust the size of your logo */
+}
+
+.menu {
+    margin-top: 20px;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #189AB4;
+    font-size: 16px;
+}
+
+/* Single Page Hero Header Start */
+.bg-breadcrumb {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/fast-and-easy-pics.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 160px 0 60px 0;
+}
+
+.bg-breadcrumb h3 {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-right: -900px;
+}
+
+.bg-breadcrumb p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    color: #fff;
+    margin-right: -900px;
+}
+
+/* Contact Start */
+.form {
+    box-sizing: border-box;
+    border-radius: 20px;
+    color: #fff;
+
+}
+
+.contact {
+    background: url(images/alina-karpenko-jH1PBHevj38-unsplash.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    /* Center the content */
+}
+
+.page {
+    margin: auto;
+    max-width: 400px;
+    /* Adjust the max-width as needed */
+    padding: 50px;
+    background: #fff;
+
+}
+
+.page_ input,
+.page_ textarea,
+.page_ select {
+    width: 100%;
+    /* Make inputs, textarea, and select full-width */
+    max-width: 100%;
+    /* Make inputs, textarea, and select full-width */
+    margin-bottom: 20px;
+    /* Add some space between inputs */
+}
+
+.page_ input {
+    background-color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.page_ textarea {
+    background-color: white;
+    border-radius: 5px;
+    height: 20vh;
+    font-size: 20px;
+}
+
+.page_ select {
+    background: white;
+    border-radius: 5px;
+    height: 30px;
+
+}
+
+.form-form h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.page_ label {
+    color: #189AB4;
+    font-size: 20px;
+}
+
+.page_ .button {
+    color: #189AB4;
+}
+
+.page_ .button:hover {
+    background: #B1D8B7;
+}
+
+/* How It Works section styles */
+.how-it-works {
+    background-color: #eaf7eb;
+    /* Light Green */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.step {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.step i {
+    font-size: 36px;
+    color: #5cb85c;
+    /* Medium Green */
+}
+
+.step h3 {
+    margin-top: 20px;
+}
+
+/* Footer Start */
+.footer .footer-item a {
+    line-height: 35px;
+    color: var(--bs-body);
+    transition: 0.5s;
+}
+
+.footer .footer-item p {
+    line-height: 35px;
+}
+
+.footer .footer-item a:hover {
+    letter-spacing: 2px;
+    color: var(--bs-primary);
+}
+
+/* copyright Start */
+footer {
+    background-color: #5cb85c;
+    /* Medium Green */
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icon {
+    color: #fff;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.social-icon:hover {
+    color: #f4d35e;
+    /* Yellow */
+}
+
+.hero-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* copyright end */
