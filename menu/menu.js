@@ -13,17 +13,50 @@ const selectedProduct = sessionStorage.getItem('selectedProduct');
 const productInfoContainer = document.getElementById('productInfo');
 if (selectedProduct === 'Fish taco') {
   product1_details(selectedProduct)
- 
-} else if (selectedProduct === 'seafood paella') {
-  product2_details(selectedProduct)
- 
-} else if (selectedProduct === 'pokebowl') {
+} 
+
+ else if (selectedProduct === 'pokebowl') {
+  product2_details(selectedProduct) 
+}
+
+ else if (selectedProduct === 'shrimpscampi') {
   product3_details(selectedProduct)
- 
-} else if (selectedProduct === 'shrimpscampi') {
+}
+
+ else if (selectedProduct === 'seafood paella') {
   product4_details(selectedProduct)
+ }
+
+ else if (selectedProduct === 'pretzel crusted catfish') {
+  product5_details(selectedProduct)
  
 }
+
+else if (selectedProduct === 'salmon kebabs') {
+  product6_details(selectedProduct)
+ 
+}
+
+else if (selectedProduct === 'baked tilapia with parmesan crust') {
+  product7_details(selectedProduct)
+ 
+}
+
+else if (selectedProduct === 'grilled butterfish and quinoa') {
+  product8_details(selectedProduct)
+ 
+}
+
+else if (selectedProduct === 'sardines on toast') {
+  product9_details(selectedProduct)
+ 
+}
+
+else if (selectedProduct === 'tilapa fish tacos') {
+  product8_details(selectedProduct)
+ 
+}
+
  
 else {
   productInfoContainer.innerHTML = '<p>No product information available.</p>';
@@ -31,7 +64,7 @@ else {
  
 function product1_details(selectedProduct) {
     productInfoContainer.innerHTML = `
-    <h2>Fish taco Information</h2>
+    <h2>Fish Taco Information</h2>
     <p>these are your the items for ${selectedProduct}.</p>
     <ul>
         <li>ingrediant 1</li>
@@ -44,7 +77,7 @@ function product1_details(selectedProduct) {
  
 function product2_details(selectedProduct) {
     productInfoContainer.innerHTML = `
-    <h2>seafood paella Information</h2>
+    <h2>Pokebowl Information</h2>
     <p>these are your the items for ${selectedProduct}.</p>
     <ul>
         <li>ingrediant 1</li>
@@ -61,7 +94,7 @@ function product2_details(selectedProduct) {
  
 function product3_details(selectedProduct) {
   productInfoContainer.innerHTML = `
-  <h2>pokebowl Information</h2>
+  <h2>Shrimpscampi Information</h2>
   <p>these are your the items for ${selectedProduct}.</p>
   <ul>
       <li>ingrediant 1</li>
@@ -76,7 +109,7 @@ function product3_details(selectedProduct) {
  
 function product4_details(selectedProduct) {
   productInfoContainer.innerHTML = `
-  <h2>shrimpscampi Information</h2>
+  <h2>Seafoood Paella Information</h2>
   <p>these are your the items for ${selectedProduct}.</p>
   <ul>
       <li>ingrediant 1</li>
@@ -86,10 +119,10 @@ function product4_details(selectedProduct) {
   </ul>
 `;
 }
- 
+
 function product5_details(selectedProduct) {
   productInfoContainer.innerHTML = `
-  <h2>Product 1 Information</h2>
+  <h2>Pretzel Crusted Catfish Information</h2>
   <p>these are your the items for ${selectedProduct}.</p>
   <ul>
       <li>ingrediant 1</li>
@@ -99,3 +132,70 @@ function product5_details(selectedProduct) {
   </ul>
 `;
 }
+
+function product6_details(selectedProduct) {
+  productInfoContainer.innerHTML = `
+  <h2>Salmon Kebabs Information</h2>
+  <p>these are your the items for ${selectedProduct}.</p>
+  <ul>
+      <li>ingrediant 1</li>
+      <li>ingrediant 2</li>
+      <li>ingrediant 3</li>
+      <li>ingrediant 4</li>
+  </ul>
+`;
+}
+
+function product7_details(selectedProduct) {
+  productInfoContainer.innerHTML = `
+  <h2>Baked Tilapia with Parmesan Crust Information</h2>
+  <p>these are your the items for ${selectedProduct}.</p>
+  <ul>
+      <li>ingrediant 1</li>
+      <li>ingrediant 2</li>
+      <li>ingrediant 3</li>
+      <li>ingrediant 4</li>
+  </ul>
+`;
+}
+
+function product8_details(selectedProduct) {
+  productInfoContainer.innerHTML = `
+  <h2>Baked Tilapia with Parmesan Crust Information</h2>
+  <p>these are your the items for ${selectedProduct}.</p>
+  <ul>
+      <li>ingrediant 1</li>
+      <li>ingrediant 2</li>
+      <li>ingrediant 3</li>
+      <li>ingrediant 4</li>
+  </ul>
+`;
+}
+
+function product9_details(selectedProduct) {
+  productInfoContainer.innerHTML = `
+  <h2>Sardine on Toast</h2>
+  <p>these are your the items for ${selectedProduct}.</p>
+  <ul>
+      <li>ingrediant 1</li>
+      <li>ingrediant 2</li>
+      <li>ingrediant 3</li>
+      <li>ingrediant 4</li>
+  </ul>
+`;
+}
+
+function product10_details(selectedProduct) {
+  productInfoContainer.innerHTML = `
+  <h2>Tilapia Fish Tacos</h2>
+  <p>these are your the items for ${selectedProduct}.</p>
+  <ul>
+      <li>ingrediant 1</li>
+      <li>ingrediant 2</li>
+      <li>ingrediant 3</li>
+      <li>ingrediant 4</li>
+  </ul>
+`;
+}
+
+
