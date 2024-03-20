@@ -69,6 +69,10 @@ button {
     height: 50px;
 }
 
+button:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
 .menu {
     padding: 0 10px 30px 10px;
     display: grid;
@@ -94,12 +98,8 @@ button {
     color: #B1D8B7;
 }
  
-.content-paragraph {
-   
-}
-
 .food-category {
-    margin: 5rem 20rem;
+    margin: 5rem 20rem 0 5rem;
     text-transform: lowercase;
     font-size: 55px;
     color: #5da068;
