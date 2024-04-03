@@ -360,3 +360,14 @@ footer {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
 
 }
+
+/*scrolling meals in home page*/
+
+.scrollable-container {
+    margin: 5% 20% 0% 20%;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
