@@ -10,6 +10,17 @@
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="styles_contactpage.css" rel="stylesheet">
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "hSMsTvep8jk9NH-Gk",
+      });
+   })();
+</script>
 </head>
 
 <body>
@@ -72,7 +83,7 @@
     <div class="container-fluid contact py-5">
         <p class="our-text">this is text </p><br><br>
       <div class="page ">
-            <form action="mail.php" method="post" class="page_" onsubmit="return submitEvent()">
+            <form action="https://formsubmit.co/mduduayanda01@gmail.com" method="post" class="page_" onsubmit="return submitEvent()" onclick="sendMail()">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required><br><br>
                 <label for="email">Email:</label>
