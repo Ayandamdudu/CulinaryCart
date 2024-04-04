@@ -4,21 +4,33 @@ document.addEventListener('DOMContentLoaded', function () {
   const btnLeft = document.querySelector('.scroll-left-button');
   const btnRight = document.querySelector('.scroll-right-button');
 
-  container.addEventListener('wheel', function (e) {
-    e.preventDefault();
-    container.scrollLeft += e.deltaY;
+  let isScrolling = false;
+
+  function startScroll(direction) {
+      if (!isScrolling) {
+          isScrolling = true;
+          const scrollAmount = (direction === 'left') ? -10 : 10;
+          const scrollInterval = setInterval(function() {
+              container.scrollLeft += scrollAmount;
+          }, 10);
+          
+          const stopScroll = function() {
+              clearInterval(scrollInterval);
+              isScrolling = false;
+              btnLeft.removeEventListener('mouseup', stopScroll);
+              btnRight.removeEventListener('mouseup', stopScroll);
+          };
+
+          btnLeft.addEventListener('mouseup', stopScroll);
+          btnRight.addEventListener('mouseup', stopScroll);
+      }
+  }
+
+  btnLeft.addEventListener('mousedown', function() {
+      startScroll('left');
   });
 
-  container.addEventListener('touchmove', function (e) {
-    e.preventDefault();
-    container.scrollLeft += e.touches[0].clientX - e.touches[1].clientX;
-  });
-
-  btnLeft.addEventListener('click', function() {
-    container.scrollBy({left: -100, behavior: 'smooth' });
-  });
-
-  btnRight.addEventListener('click', function() {
-    container.scrollBy({right: 100, behavior: 'smooth' });
+  btnRight.addEventListener('mousedown', function() {
+      startScroll('right');
   });
 });
