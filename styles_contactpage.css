@@ -63,13 +63,8 @@ header {
 }
 
 /* Contact Start */
-.form {
-    box-sizing: border-box;
-    border-radius: 50px;
-    color:#eaf7eb;
 
-}
-
+ 
 .contact {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/alina-karpenko-jH1PBHevj38-unsplash.jpg);
     background-position: center center;
@@ -87,51 +82,68 @@ header {
 }
 
 .page {
-    margin-left: 35%; 
-    max-width: 500px;
-    /* Adjust the max-width as needed */
-    padding: 50px;
-    background: #eaf7eb;
-    border-radius: 20px;
+        max-width: 800px;
+        margin: 20px auto;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 
-.page_ input,
-.page_ textarea,
-.page_ select {
-    width: 100%;
-    /* Make inputs, textarea, and select full-width */
-    max-width: 100%;
-    /* Make inputs, textarea, and select full-width */
+.order-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+  .form-group {
     margin-bottom: 20px;
-    /* Add some space between inputs */
-}
-
-.page_ input {
-    background-color: white;
+    width: 100%;
+  }
+ 
+  label {
+    font-size: 18px;
+    color: #4CAF50;
+    margin-bottom: 5px;
+    display: block;
+    margin-right: 85%;
+    font-weight: bold;
+  }
+ 
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 10px;
     border-radius: 5px;
-    font-size: 20px;
-}
-
-.page_ textarea {
-    background-color: white;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+ #message{
+    width: 100%;
+    padding: 10%;
     border-radius: 5px;
-    height: 20vh;
-    font-size: 20px;
-}
-
-.page_ select {
-    background: white;
+    border-radius:  solid #ccc;
+    box-sizing: border-box;
+    font-size: medium;
+ }
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
     border-radius: 5px;
-    height: 30px;
-
-}
-
-.form-form h2 {
+    cursor: pointer;
+    font-size: 18px;
+  }
+ 
+  h2 {
+    color: #4CAF50;
     text-align: center;
-    font-size: 40px;
-}
-
+    margin-bottom: 30px;
+  }
 .page_ label {
     color:black;
     font-size: 20px;
