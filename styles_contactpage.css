@@ -6,12 +6,11 @@
 }
 
 body {
-    font-family: 'poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 header {
     background-color: #B1D8B7;
-    /* Medium Green */
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -19,7 +18,6 @@ header {
 
 .logo img {
     width: 50px;
-    /* Adjust the size of your logo */
 }
 
 .menu {
@@ -63,8 +61,6 @@ header {
 }
 
 /* Contact Start */
-
- 
 .contact {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/alina-karpenko-jH1PBHevj38-unsplash.jpg);
     background-position: center center;
@@ -72,9 +68,6 @@ header {
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
-    
-    
-    /* Center the content */
 }
 
 .our-text {
@@ -82,54 +75,55 @@ header {
 }
 
 .page {
-        max-width: 800px;
-        margin: 20px auto;
-        background-color: #fff;
-        border-radius: 10px;
-        padding: 20px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
 
 .order-form {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
- 
-  .form-group {
+}
+
+.form-group {
     margin-bottom: 20px;
     width: 100%;
-  }
- 
-  label {
+}
+
+label {
     font-size: 18px;
     color: #4CAF50;
     margin-bottom: 5px;
     display: block;
     margin-right: 85%;
     font-weight: bold;
-  }
- 
-  input[type="text"],
-  input[type="number"],
-  select {
+}
+
+input[type="text"],
+input[type="number"],
+select {
     width: 100%;
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
     box-sizing: border-box;
     font-size: 16px;
-  }
- #message{
+}
+
+#message {
     width: 100%;
     padding: 10%;
     border-radius: 5px;
-    border-radius:  solid #ccc;
+    border-radius: solid #ccc;
     box-sizing: border-box;
     font-size: medium;
- }
-  input[type="submit"] {
+}
+
+input[type="submit"] {
     background-color: #4CAF50;
     color: white;
     padding: 12px 20px;
@@ -137,15 +131,16 @@ header {
     border-radius: 5px;
     cursor: pointer;
     font-size: 18px;
-  }
- 
-  h2 {
+}
+
+h2 {
     color: #4CAF50;
     text-align: center;
     margin-bottom: 30px;
-  }
+}
+
 .page_ label {
-    color:black;
+    color: black;
     font-size: 20px;
 }
 
@@ -160,15 +155,10 @@ header {
 /* How It Works section styles */
 .how-it-works {
     background-color: #eaf7eb;
-    /* Light Green */
     padding: 60px 20px;
     text-align: center;
- 
 }
-p iframe{
-    height: 200px;
-    display: flex;
-}
+
 .steps {
     display: flex;
     justify-content: center;
@@ -179,22 +169,33 @@ p iframe{
     flex: 1;
     margin: 0 20px;
 }
-.step i:hover{
+
+.step i:hover {
     color: #f4d35e;
 }
+
 .step i {
     font-size: 36px;
     color: #5cb85c;
-    /* Medium Green */
 }
 
 .step h3 {
     margin-top: 20px;
 }
-p iframe{
- margin-right: 1000px;
- top: 200px;
+
+/* Map container */
+.map-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
+
+.map-container iframe {
+    height: 400px;
+    width: 100%;
+    max-width: 1000px;
+}
+
 /* Footer Start */
 .footer .footer-item a {
     line-height: 35px;
@@ -214,7 +215,6 @@ p iframe{
 /* copyright Start */
 footer {
     background-color: #5cb85c;
-    /* Medium Green */
     color: #fff;
     text-align: center;
     padding: 5px 0;
@@ -236,7 +236,6 @@ footer {
 
 .social-icon:hover {
     color: #f4d35e;
-    /* Yellow */
 }
 
 .hero-image {
@@ -246,5 +245,3 @@ footer {
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
-
-/* copyright end */
