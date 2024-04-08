@@ -206,7 +206,7 @@ header h1 {
 
 .products-preview .preview.active{
    display: inline-block;
-   width: 800px;
+   width: 1000px;
 }
 
 .products-preview .preview img{
