@@ -186,7 +186,7 @@ header h1 {
 .products-preview{
    position: fixed;
    top:0; left:0;
-   min-height: 100vh;
+   min-height: 80vh;
    width: 100%;
    background: rgba(0,0,0,.8);
    display: none;
@@ -206,12 +206,23 @@ header h1 {
 
 .products-preview .preview.active{
    display: inline-block;
+   width: 800px;
 }
 
 .products-preview .preview img{
-   height: 30rem;
+   height: 10rem;
 }
-
+.products-preview .preview h4{
+   padding:.5rem 0;
+   font-size: 1.5rem;
+   color: #27ae60;
+}
+.products-preview .preview li{
+   padding:.3rem 0;
+   font-weight: bolder;
+   font-size: 1rem;
+   
+}
 .products-preview .preview .fa-times{
    position: absolute;
    top:1rem; right:1.5rem;
@@ -228,6 +239,7 @@ header h1 {
    color:#444;
    padding:.5rem 0;
    font-size: 2.5rem;
+  
 }
 
 .products-preview .preview .stars{
