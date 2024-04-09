@@ -23,15 +23,52 @@ body {
     margin-top: 80px;
 
 }
- 
-/* Header styles */
+        /* Navbar styles */
+        .navbar {
+            background-color: #5cb85c;
+            padding: 10px 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+        }
 
-header {
+        .navbar-brand {
+            font-size: 24px;
+            font-weight: bold;
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .navbar-nav {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            float: right;
+        }
+        .navbar-brand img {
+            height: 10px; /* Adjust the height as needed */
+            margin-right: 10px; /* Add some spacing between the logo and text */
+        }
 
-    background-color: #B1D8B7; /* Medium Green */
+        .nav-item {
+            display: inline-block;
+            margin-left: 20px;
+        }
 
-    color: #fff;
+        .nav-link {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
 
+<<<<<<< HEAD
+        .nav-link:hover {
+            color: #f0f0f0;
+        }
+=======
    padding: -10px;
 
     text-align: center;
@@ -42,6 +79,7 @@ header {
 
 }
  
+>>>>>>> 60bd0f784f6185ec355a4c63b3c5533115e16650
 .logo img {
 
     width: 50px; /* Adjust the size of your logo */
@@ -240,139 +278,3 @@ header {
 
 }
  
-.reason h3 {
-
-    margin-top: 20px;
-
-}
- 
-/* Scroll buttons styles */
-
-.scroll-buttons {
-
-    text-align: center;
-
-    margin-top: 20px;
-
-}
- 
-.scroll-left-button,
-
-.scroll-right-button {
-
-    background-color: #f4d35e; /* Yellow */
-
-    color: #333;
-
-    border: none;
-
-    border-radius: 5px;
-
-    padding: 10px;
-
-    margin: 0 10px;
-
-    cursor: pointer;
-
-}
- 
-.scroll-left-button:hover,
-
-.scroll-right-button:hover {
-
-    background-color: #e6b800; /* Darker Yellow on hover */
-
-}
- 
-/* View menu button styles */
-
-.view-menu-button {
-
-    display: block;
-
-    width: 200px;
-
-    margin: 20px auto; /* Added margin for spacing */
-
-    padding: 15px 20px;
-
-    background-color: #f4d35e; /* Yellow */
-
-    color: #333;
-
-    text-align: center;
-
-    text-decoration: none;
-
-    border-radius: 5px;
-
-    transition: background-color 0.3s;
-
-}
- 
-/* Footer styles */
-
-footer {
-
-    background-color: #5cb85c; /* Medium Green */
-
-    color: #fff;
-
-    text-align: center;
-
-    padding: 20px 0;
-
-    display: flex;
-
-    justify-content: space-between;
-
-    align-items: center;
-
-}
- 
-.social-icons {
-
-    display: flex;
-
-}
- 
-.social-icon {
-
-    color: #fff;
-
-    font-size: 20px;
-
-    margin-left: 10px;
-
-}
- 
-.social-icon:hover {
-
-    color: #f4d35e; /* Yellow */
-
-}
- 
-.hero-image {
-
-    width: 100%; /* Ensure the image fills the entire width of its container */
-
-    max-height: 400px; /* Set a maximum height to prevent the image from becoming too tall */
-
-    object-fit: cover; /* Ensure the image covers the entire container while maintaining its aspect ratio */
-
-    border-radius: 10px; /* Add a border-radius for rounded corners, if desired */
-
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
-padding-top: 50px;
-}
-
-/*scrolling meals in home page*/
-
-.scrollable-container {
-    margin: 5% 20% 0% 20%;
-    justify-content: center;
-    align-items: center;
-    overflow-x: auto;
-    white-space: nowrap;
-    overflow: hidden;
-}
