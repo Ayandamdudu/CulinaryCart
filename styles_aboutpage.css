@@ -26,7 +26,7 @@ body {
     font-size: 22px;
     line-height: 1.6;
     color: rgb(145, 207, 145);
-
+    
 }
 
 /* Header styles */
@@ -44,6 +44,10 @@ header {
     width: 100%;
 
     opacity: 0.9;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 
 }
 

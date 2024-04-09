@@ -20,6 +20,7 @@ body {
     background-color: #f7f7f7;
 
     color: #333;
+    margin-top: 80px;
 
 }
  
@@ -31,9 +32,13 @@ header {
 
     color: #fff;
 
-    padding: 20px;
+   padding: -10px;
 
     text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 
 }
  
@@ -358,7 +363,7 @@ footer {
     border-radius: 10px; /* Add a border-radius for rounded corners, if desired */
 
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
-
+padding-top: 50px;
 }
 
 /*scrolling meals in home page*/
